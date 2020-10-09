@@ -1,4 +1,4 @@
-require 'replace_temp_with_query/replace_temp_with_query'
+require 'replace_temp_with_query/item'
 
 RSpec.describe ReplaceTempWithQuery::Item do
   subject(:item) { described_class.new(quantity, price) }

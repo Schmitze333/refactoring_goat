@@ -1,4 +1,4 @@
-require 'extract_method/extract_method'
+require 'extract_method/custom_owes'
 
 RSpec.describe ExtractMethod::CustomOwes do
   subject(:print_owings) do
