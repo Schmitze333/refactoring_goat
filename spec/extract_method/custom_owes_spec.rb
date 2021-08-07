@@ -12,8 +12,6 @@ RSpec.describe ExtractMethod::CustomOwes do
     ]
   end
 
-  let(:expected_output) {}
-
   it 'prints out the correct customer name' do
     expected_output = <<~OUTPUT
       *************************
